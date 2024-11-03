@@ -11,7 +11,7 @@ public class App {
         final int id = 2;
         Person person = getPersonUsecase.execute(id);
         if(person != null) {
-            System.err.println(person.toString());        
+            System.out.println(person.toString());        
         }else {
             System.err.println("Pessoa com id " + id + ", não encotnrada.");        
         }
